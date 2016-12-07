@@ -2,6 +2,7 @@
 
 namespace WordWrap_Kata
 {
+    // http://ccd-school.de/coding-dojo/function-katas/textumbruch/
     public static class WordWrap
     {
         public static string[] CreateLines(string[] worte, int maxLineLength)
