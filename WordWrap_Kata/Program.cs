@@ -10,6 +10,14 @@ namespace WordWrap_Kata
     {
         static void Main(string[] args)
         {
+            // http://www.personal.uni-jena.de/~dps/advent.html
+            string[] lines = WordWrap.CreateLines("Es blaut die Nacht,die Sternlein blinken,Schneeflöcklein leis hernieder sinken.".Split(' '),14);
+            foreach (string line in lines)
+            {
+                Console.WriteLine(line);
+            }
+            Console.ReadLine();
+
         }
     }
 }
